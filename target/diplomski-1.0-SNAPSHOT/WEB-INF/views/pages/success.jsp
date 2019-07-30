@@ -14,6 +14,8 @@
     <body>
         <h1>Hello ${sessionScope.username}!</h1>
         <br>
+        <a href="${pageContext.request.contextPath}/dobavljaci/all">Dobavljaci</a>
+        <br>
         <a href="${pageContext.request.contextPath}/logout">Logout</a>
     </body>
 </html>
